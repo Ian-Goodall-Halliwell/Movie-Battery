@@ -351,7 +351,7 @@ if __name__ == "__main__":
         metacoll = metadatacollection(INFO)
         metacoll.rungui()
         metacoll.collect_metadata()
-        metacoll.INFO['Block Runtime'] = 3600
+        metacoll.INFO['Block Runtime'] = 48000
         
         # Defining output datafile
         datafile = str(os.getcwd() + '/log_file/output_log_{}_{}.csv'.format(metacoll.INFO['Subject'],metacoll.INFO['Experiment Seed']))

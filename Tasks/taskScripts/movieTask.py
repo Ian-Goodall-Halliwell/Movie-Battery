@@ -99,7 +99,7 @@ def runexp(filename, timer, win, writer, resdict, runtime,dfile,seed):
     
 
      
-    mov = visual.MovieStim3(win, trialvideo, size=(1920, 1080), flipVert=False, flipHoriz=False, loop=False)
+    mov = visual.MovieStim3(win, trialvideo, size=(2560, 1440), flipVert=False, flipHoriz=False, loop=False)
     expClock = core.Clock()
     
     timelimit = 1800//16
