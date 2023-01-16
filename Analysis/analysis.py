@@ -404,6 +404,8 @@ for file in os.listdir("Tasks/log_file"):
                             #row[10] = "Movie Task-bridge"
                         if task_name == "Movie Task-Movie Task-incept":
                             line_dict["Task_name"] = "Movie Task-incept"
+                        if task_name == "Movie Task-Movie Task-videodata":
+                            line_dict["Task_name"] = "Movie Task-videodata"
                             #row[10] = "Movie Task-incept"
                         grads = graddict[line_dict["Task_name"]]
                         line_dict["Gradient 1"],line_dict["Gradient 2"],line_dict["Gradient 3"] = grads
